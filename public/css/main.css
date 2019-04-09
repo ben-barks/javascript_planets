@@ -1,0 +1,41 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 5px;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 ,h5 {
+  padding: 0;
+  margin: 3px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.selected-planet-nav {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 1.15rem;
+}
+
+.planet-image {
+  max-width: 500px;
+}
+
+.nav {
+  width: 100%;
+  border: solid 1px black;
+  background: green;
+  color: white;
+  padding: 5px;
+}
+
+.planet-menu-item {
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
