@@ -56,18 +56,8 @@ PlanetInfoView.prototype.clearDetails = function (element) {
   };
 };
 
-
+PlanetInfoView.prototype.displayDefault = function () {
+  PubSub.publish("PlanetNavView:selected-planet", { planetInfo: "Earth"})
+};
 
 module.exports = PlanetInfoView;
-
-
-
-//
-// name: 'Mercury',
-// orbit: 87.969,
-// day: 58.646,
-// surfaceArea: 0.147,
-// volume: 0.056,
-// gravity: 0.38,
-// moons: 0,
-// image: 'images/mercury.jpg'

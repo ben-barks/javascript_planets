@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   planetNavView.bindEvents();
   planetsDataModel.bindEvents();
 
-  PubSub.publish("PlanetNavView:selected-planet", { planetInfo: "Earth"})
+  planetInfoView.displayDefault();
   // document.dispatchEvent("PlanetNavView:selected-planet", { planetInfo: "Earth"});
 
 });
